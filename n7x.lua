@@ -33,7 +33,7 @@ local header = Instance.new("TextLabel", panel)
 header.Size = UDim2.new(1, 0, 0, 40)
 header.BackgroundColor3 = Color3.fromRGB(147, 51, 234)
 header.TextColor3 = Color3.fromRGB(255, 255, 255)
-header.Text = "N7x"
+header.Text = "N7x v1.0"
 header.TextSize = 16
 header.BorderSizePixel = 0
 
@@ -503,4 +503,4 @@ end_btn.MouseButton1Click:Connect(function()
     end
 end)
 
-print("N7x تم تحميله!")
+print("N7x Loaded Successfully!")
